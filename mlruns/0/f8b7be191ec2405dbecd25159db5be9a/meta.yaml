@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/f8b7be191ec2405dbecd25159db5be9a/artifacts
+end_time: 1732881726210
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8b7be191ec2405dbecd25159db5be9a
+run_name: chill-quail-919
+run_uuid: f8b7be191ec2405dbecd25159db5be9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732881726135
+status: 3
+tags: []
+user_id: Jean

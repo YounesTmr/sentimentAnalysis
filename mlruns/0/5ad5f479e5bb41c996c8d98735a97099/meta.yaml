@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/5ad5f479e5bb41c996c8d98735a97099/artifacts
+end_time: 1732881568728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ad5f479e5bb41c996c8d98735a97099
+run_name: grandiose-skunk-815
+run_uuid: 5ad5f479e5bb41c996c8d98735a97099
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732881568648
+status: 3
+tags: []
+user_id: Jean

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/9f13282f5b604b7191d7b9231fc1dc08/artifacts
+end_time: 1732881252279
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f13282f5b604b7191d7b9231fc1dc08
+run_name: orderly-skunk-801
+run_uuid: 9f13282f5b604b7191d7b9231fc1dc08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1732881241877
+status: 3
+tags: []
+user_id: Jean
