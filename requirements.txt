@@ -13,6 +13,8 @@ hugginface-hub==0.13.2
 nltk==3.8.1
 gensim==4.3.1
 fastai==2.7.11
+setuptools==67.0.0
+wheel==0.37.1
 
 # API / Web Frameworks
 Flask==2.2.3
