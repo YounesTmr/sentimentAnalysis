@@ -1,0 +1,48 @@
+# Machine Learning
+scikit-learn
+Cython
+streamlit
+tensorflow
+keras
+torch
+lightgbm
+xgboost
+imbalanced-learn
+mlflow
+huggingface-hub
+nltk
+gensim
+fastai
+setuptools
+wheel
+
+# API / Web Frameworks
+Flask
+gunicorn
+
+# MLOps
+azure-core
+azure-identity
+mlflow-skinny
+pytest
+
+# Data Management and Processing
+pandas
+numpy
+scipy
+dask
+datasets
+fsspec
+
+# Visualization
+matplotlib
+seaborn
+plotly
+altair
+hvplot
+
+# Utilities
+requests
+tqdm
+joblib
+pytest
