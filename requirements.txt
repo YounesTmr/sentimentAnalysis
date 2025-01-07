@@ -9,7 +9,7 @@ lightgbm
 xgboost
 imbalanced-learn
 mlflow
-hugginface-hub
+huggingface-hub
 nltk
 gensim
 fastai
