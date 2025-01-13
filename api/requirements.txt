@@ -5,3 +5,5 @@ numpy
 opencensus-ext-azure
 torch
 transformers
+urllib3
+requests
