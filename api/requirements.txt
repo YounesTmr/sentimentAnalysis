@@ -1,48 +1,7 @@
-# Machine Learning
-scikit-learn
-Cython
-streamlit
-tensorflow
-keras
-torch
-lightgbm
-xgboost
-imbalanced-learn
-mlflow
-huggingface-hub
-nltk
-gensim
-fastai
-setuptools
-wheel
-
-# API / Web Frameworks
-Flask
-gunicorn
-
-# MLOps
-azure-core
-azure-identity
-mlflow-skinny
-pytest
-
-# Data Management and Processing
-pandas
+Flask==2.2.2
+tensorflow==2.12.0
+tensorflow-hub==0.13.0
 numpy==1.24.3
-scipy
-dask
-datasets
-fsspec
-
-# Visualization
-matplotlib
-seaborn
-plotly
-altair
-hvplot
-
-# Utilities
-requests
-tqdm
-joblib
-pytest
+opencensus-ext-azure==1.1.0
+torch==2.1.0
+transformers==4.30.2
