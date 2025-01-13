@@ -11,7 +11,7 @@ import torch
 app = Flask(__name__)
 
 # Charger le modèle TensorFlow
-model = load_model("../sentiment_model.h5")
+model = load_model("sentiment_model.h5")
 
 instrumentation_key = "3762cbd1-6a49-42ec-9653-d92a296d33de"  
 logger = logging.getLogger(__name__)
