@@ -25,7 +25,6 @@ cryptography==44.0.0
 cycler==0.12.1
 cymem==2.0.10
 cython==3.0.11
-dask==2024.12.1
 databricks-sdk==0.40.0
 datasets==2.14.4
 deprecated==1.2.15
