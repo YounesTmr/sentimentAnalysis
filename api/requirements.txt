@@ -28,7 +28,7 @@ pytest
 
 # Data Management and Processing
 pandas
-numpy
+numpy==1.24.3
 scipy
 dask
 datasets
