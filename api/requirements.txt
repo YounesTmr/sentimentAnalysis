@@ -111,7 +111,6 @@ opt-einsum==3.4.0
 optree==0.13.1
 packaging==24.2
 pandas==2.2.3
-panel==1.5.5
 param==2.2.0
 partd==1.4.2
 pillow==11.1.0
