@@ -10,30 +10,20 @@ build:
         - rm -rf venv/
         # Création d'un environnement virtuel
         - python3 -m venv venv
-        # Activation de l'environnement virtuel
-        - source venv/bin/activate
-        # Installation des dépendances depuis requirements.txt
-        - cd /app/api && python3 -m pip install -r requirements.txt
+        # Activation de l'environnement virtuel et installation des dépendances
+        - source venv/bin/activate && python3 -m pip install -r /app/api/requirements.txt
       # Commande pour démarrer l'application
       startCommand: |
         source venv/bin/activate
-        python3 app.py
+        python3 /app/api/app.py
 
 deployment:
   # Définir le port d'écoute de l'application
   port: 8080
 
 logs:
-  # Définir la configuration des logs (optionnel mais utile pour le diagnostic)
+  # Configuration des logs (CloudWatch)
   cloudwatch:
     group: /aws/app-runner/your-service-name
     stream: app-logs
     retentionInDays: 7
-
-health:
-  # Vérification de l'état de l'application
-  healthyThreshold: 3
-  unhealthyThreshold: 5
-  intervalSeconds: 30
-  timeoutSeconds: 5
-  path: /health
