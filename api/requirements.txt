@@ -29,7 +29,6 @@ deprecated==1.2.15
 dill==0.3.7
 docker==7.1.0
 fastai==2.7.18
-fastcore==1.7.28
 fastdownload==0.0.7
 fastprogress==1.0.3
 filelock==3.16.1
