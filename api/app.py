@@ -19,6 +19,10 @@ logger.addHandler(AzureLogHandler(connection_string=f"InstrumentationKey={instru
 logger.setLevel(logging.INFO)
 
 
+# Route pour la page d'accueil
+@app.route('/')
+def home():
+    return "Welcome to the Sentiment Analysis API!"
 
 # Function to get BERT embeddings for a single text
 def get_bert_embeddings(text):
