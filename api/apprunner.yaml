@@ -20,10 +20,3 @@ build:
 deployment:
   # Définir le port d'écoute de l'application
   port: 8080
-
-logs:
-  # Configuration des logs (CloudWatch)
-  cloudwatch:
-    group: /aws/app-runner/your-service-name
-    stream: app-logs
-    retentionInDays: 7
