@@ -88,5 +88,6 @@ def validate():
         logger.error(f"Erreur dans /validate : {e}")
         return jsonify({"error": "Erreur lors de l'enregistrement du feedback"}), 500
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8000)
