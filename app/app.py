@@ -2,8 +2,8 @@ import streamlit as st
 import requests
 
 # URL de votre API Flask
-API_PREDICT_URL = "http://testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com//predict"  # Endpoint pour les prédictions
-API_VALIDATE_URL = "hhttp://testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com//validate"  # Endpoint pour les validations
+API_PREDICT_URL = "http://testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com/predict"  # Endpoint pour les prédictions
+API_VALIDATE_URL = "http://testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com/validate"  # Endpoint pour les validations
 
 st.title("Analyse de Sentiment")
 
