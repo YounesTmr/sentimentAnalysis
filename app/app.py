@@ -5,7 +5,7 @@ import requests
 API_PREDICT_URL = "http://testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com/predict"  # Endpoint pour les prédictions
 API_VALIDATE_URL = "http://testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com/validate"  # Endpoint pour les validations
 
-st.title("Analyse de Sentiment")
+st.title("Analyse de Sentiment") 
 
 # Initialiser les variables d'état
 if "prediction" not in st.session_state:
