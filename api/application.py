@@ -8,7 +8,7 @@ from transformers import BertTokenizer, BertModel
 import torch
 
 # Initialiser Flask
-app = Flask(__name__)
+application = app = Flask(__name__)
 
 # Charger le modèle TensorFlow
 model = load_model("sentiment_model.h5")
@@ -22,7 +22,7 @@ logger.setLevel(logging.INFO)
 # Route pour la page d'accueil
 @app.route('/')
 def home():
-    return "Welcome to the Sentiment Analysis API!"
+    return "Welcome to the Sentiment Analysis API ! Corrected"
 
 # Function to get BERT embeddings for a single text
 def get_bert_embeddings(text):
@@ -90,4 +90,4 @@ def validate():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=8000)

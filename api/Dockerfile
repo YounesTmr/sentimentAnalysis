@@ -1,17 +1,22 @@
-FROM python:3.11-slim
-# Set the working directory in the container
+FROM python:3.12-slim
+
+# Définir le répertoire de travail
 WORKDIR /app
-# Copy the current directory contents into the container at /app
+
+# Copier les fichiers de l'application dans le container
 COPY . /app
-# Install system dependencies for TensorFlow, PyTorch, and others
-RUN apt-get update && apt-get install -y \
-    libsndfile1 \
-    && rm -rf /var/lib/apt/lists/*
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-# Expose the port for the Flask app
-EXPOSE 8080
-# Set the environment variable for Gunicorn
-ENV PATH="/usr/local/bin:$PATH"
-# Use Gunicorn to serve the app
-CMD ["gunicorn", "-w", "4", "app:app"]
+
+# Installer les dépendances de l'application
+RUN pip install -r requirements.txt
+
+# Installer Nginx
+RUN apt-get update && apt-get install -y nginx
+
+# Copier la configuration de Nginx dans le container
+COPY .platform/nginx/conf.d/proxy.conf /etc/nginx/sites-available/default
+
+# Exposer le port pour Nginx (80) et Gunicorn (8000)
+EXPOSE 80 8000
+
+# Lancer Gunicorn et Nginx
+CMD service nginx start && gunicorn -w 4 -b 0.0.0.0:8000 application:application
