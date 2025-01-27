@@ -9,6 +9,12 @@ COPY . /app
 # Installer les dépendances de l'application
 RUN pip install -r requirements.txt
 
+# Installer pytest pour exécuter les tests
+RUN pip install pytest
+
+# Exécuter les tests avec pytest
+RUN pytest --maxfail=1 --disable-warnings
+
 # Installer Nginx
 RUN apt-get update && apt-get install -y nginx
 

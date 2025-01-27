@@ -1,8 +1,9 @@
 flask==3.1.0
 transformers
 tensorflow
+tensorflow_hub
 numpy
-flask==3.1.0
+pytest
 tensorflow-cpu==2.18.0
 torch==2.5.1
 opencensus-ext-azure
