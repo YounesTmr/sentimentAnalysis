@@ -9,7 +9,8 @@ with mlflow.start_run(run_name="baseline_model"):
     # Exemple de suivi d'un paramètre
     mlflow.log_param("model_type", "Logistic Regression")
 
-    # Exemple de suivi d'une métrique
+    # Exemple de suivi d'une mé
+trique
     accuracy = 0.85
     mlflow.log_metric("accuracy", accuracy)
 
