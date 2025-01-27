@@ -1,7 +1,6 @@
 from flask import Flask, request, jsonify
 from tensorflow.keras.models import load_model
 import numpy as np
-import tensorflow_hub as hub
 from opencensus.ext.azure.log_exporter import AzureLogHandler
 import logging
 from transformers import BertTokenizer, BertModel

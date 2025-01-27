@@ -1,7 +1,6 @@
 flask==3.1.0
 transformers
 tensorflow
-tensorflow_hub
 numpy
 pytest
 tensorflow-cpu==2.18.0

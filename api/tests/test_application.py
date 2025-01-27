@@ -17,14 +17,14 @@ def test_home(client):
     assert response.status_code == 200
     assert b"Welcome to the Sentiment Analysis API ! Corrected" in response.data
 
-def test_predict(client):
+def test_predict_positive(client):
     response = client.post('/predict', json={"text": "I love this product!"})
     data = json.loads(response.data)
     assert response.status_code == 200
     assert 'prediction' in data
     assert data['prediction'] == "positive"
 
-def test_predict(client):
+def test_predict_negative(client):
     response = client.post('/predict', json={"text": "This is a bad product!"})
     data = json.loads(response.data)
     assert response.status_code == 200
