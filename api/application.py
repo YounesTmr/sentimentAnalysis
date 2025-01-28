@@ -5,12 +5,14 @@ from opencensus.ext.azure.log_exporter import AzureLogHandler
 import logging
 from transformers import BertTokenizer, BertModel
 import torch
+import os
 
 # Initialiser Flask
 application = app = Flask(__name__)
 
 # Charger le modèle TensorFlow
-model = load_model("sentiment_model.h5")
+model_path = os.path.join(os.getcwd(), 'model.h5')  # This assumes model.h5 is in the root directory of the project
+model = load_model(model_path)
 
 instrumentation_key = "3762cbd1-6a49-42ec-9653-d92a296d33de"  
 logger = logging.getLogger(__name__)
