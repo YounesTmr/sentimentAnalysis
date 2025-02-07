@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/d4d5060288bd4bb2a2eb94b14b0f5619/artifacts
+end_time: 1738081949609
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d4d5060288bd4bb2a2eb94b14b0f5619
+run_name: grandiose-squid-772
+run_uuid: d4d5060288bd4bb2a2eb94b14b0f5619
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738081941798
+status: 3
+tags: []
+user_id: Jean

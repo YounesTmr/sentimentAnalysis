@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/cab3cddfa2784b60905ef09c4b6ac6a9/artifacts
+end_time: 1738083832004
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cab3cddfa2784b60905ef09c4b6ac6a9
+run_name: worried-cat-280
+run_uuid: cab3cddfa2784b60905ef09c4b6ac6a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738083823088
+status: 3
+tags: []
+user_id: Jean

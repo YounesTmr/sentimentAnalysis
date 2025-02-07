@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/db5aaa541c5a40cbac4fbb5f3fdd2a89/artifacts
+end_time: 1738083222259
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db5aaa541c5a40cbac4fbb5f3fdd2a89
+run_name: incongruous-tern-967
+run_uuid: db5aaa541c5a40cbac4fbb5f3fdd2a89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738082725005
+status: 3
+tags: []
+user_id: Jean

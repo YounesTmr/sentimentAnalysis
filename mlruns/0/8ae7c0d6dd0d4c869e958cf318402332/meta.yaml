@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/8ae7c0d6dd0d4c869e958cf318402332/artifacts
+end_time: 1738082094113
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ae7c0d6dd0d4c869e958cf318402332
+run_name: legendary-ant-940
+run_uuid: 8ae7c0d6dd0d4c869e958cf318402332
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738082087108
+status: 3
+tags: []
+user_id: Jean

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/32ee1f69dc3b4114a709301a7559227b/artifacts
+end_time: 1738082387022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 32ee1f69dc3b4114a709301a7559227b
+run_name: tasteful-turtle-787
+run_uuid: 32ee1f69dc3b4114a709301a7559227b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738082378002
+status: 3
+tags: []
+user_id: Jean

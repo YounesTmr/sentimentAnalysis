@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Jean/P7/mlruns/0/d3a9fb48fb744f9fb4ba9860eb28c4b9/artifacts
+end_time: 1738081655232
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3a9fb48fb744f9fb4ba9860eb28c4b9
+run_name: angry-fox-617
+run_uuid: d3a9fb48fb744f9fb4ba9860eb28c4b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738081648123
+status: 3
+tags: []
+user_id: Jean
