@@ -21,3 +21,5 @@ Cette API permet d'analyser le sentiment des tweets en temps réel. Elle a été
 ## Déploiement
 
 L'API est déployée sur AWS Elastic Beanstalk et intègre un pipeline CI/CD via AWS CodePipeline.
+
+Link to API: testapp-env.eba-xsg2a8c5.eu-west-3.elasticbeanstalk.com
