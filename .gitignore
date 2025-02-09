@@ -1,0 +1,54 @@
+# 🛑 Python files 
+__pycache__/
+venv/
+env/
+
+
+# 🛑 Logs et fichiers temporaires
+*.log
+logs/
+tmp/
+.DS_Store  # Pour MacOS
+
+# 🛑 Configuration spécifique à l'IDE
+.vscode/
+.idea/
+*.swp  # Fichiers temporaires de Vim
+
+# 🛑 Dépendances et packages
+node_modules/
+*.jar
+*.war
+
+# 🛑 Fichiers de données et modèles lourds
+data/
+datasets/
+models/
+checkpoints/
+*.h5  # Fichiers de modèles Keras
+*.pt  # Fichiers de modèles PyTorch
+*.pkl  # Fichiers de modèles sauvegardés en Pickle
+*.joblib  # Autres fichiers de stockage de modèles
+
+# 🛑 Cache de Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🛑 Fichiers MLflow et DVC
+mlruns/
+dvc.lock
+.dvc/
+
+
+# 🛑 Fichiers générés par AWS Elastic Beanstalk
+.elasticbeanstalk/
+.ebextensions/
+.aws-sam/
+
+# 🛑 Build et artefacts de CI/CD
+build/
+dist/
+*.whl
+*.tar.gz
+coverage/
+*.coverage
+site/
